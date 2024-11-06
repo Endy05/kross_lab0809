@@ -28,6 +28,9 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
+              Center(
+                child: Image.asset('images/japan_image-three.jpg', width: 400),
+              ),
               const Text("Reset Password", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20), textAlign: TextAlign.center),
               const SizedBox(height: 20),
               TextFormField(controller: _emailController, decoration: const InputDecoration(labelText: 'Email', border: OutlineInputBorder()), validator: _validateEmail),

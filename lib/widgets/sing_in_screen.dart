@@ -47,10 +47,7 @@ class _SignInScreenState extends State<SignInScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Center(
-                child: Image.network(
-                  "https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg",
-                  width: 200,
-                ),
+                child: Image.asset('images/cat_image-one.jpg', width: 250),
               ),
               const SizedBox(height: 20),
               TextFormField(
